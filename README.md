@@ -10,22 +10,22 @@ La VM doit pouvoir charger du code assembleur ayant été généré par le compi
 
 Dans le dossier courant, il faut effectuer les instructions ci-dessous depuis votre terminal:
 
-```clisp 
+```common-lisp 
 (load "VM.lisp")
 (load "Compilateur.lisp")
 ```
 
 Pour pouvoir compiler un programme Clisp contenu dans un fichier et ainsi l'exécuter:
-```clisp
+```common-lisp 
 (file-exec "<nom-du-fichier>")
 ```
 
 Un fichier de tests "tests.lisp" est fourni pour traiter différents programmes Clisp.
-```clisp
+```common-lisp 
 (load "tests.lisp")
 ```
 
 Exemple d'exécution pour un fichier:
-```clisp
+```common-lisp 
 (file-exec "fact.lisp")
 ```
